@@ -1,0 +1,17 @@
+{
+  "name": "salaryshield-ts",
+  "version": "1.0.0",
+  "description": "SalaryShield — Confidential Payroll on FHE",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "ethers": "^6.16.0",
+    "typescript": "^5.0.0",
+    "vite": "^5.0.0"
+  }
+}
